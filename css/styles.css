@@ -1,0 +1,66 @@
+
+a {
+    text-decoration: none;
+}
+
+ul.info li{
+    display: inline;
+    margin-right: 10px;
+    border-width: 2px;
+    border: 50%;
+    border-top: 2px;
+    padding: 15px;
+    font-family: 'Bebas Neue', cursive;
+    /*list-style-position: inside;*/
+}
+
+ul.order li{
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(226, 214, 197);
+    margin-right: 50px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-width: 2px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+p.lunch{
+    font-family: 'Bebas Neue', cursive;
+}
+
+div.nav{
+    border: 1px solid black;} 
+    
+    
+/*div.menu{
+    border: 1px solid black;
+}*/
+div.food{
+    font-family: bungee, sans-serif;
+    font-style: normal;
+}
+
+
+body{
+    text-align: center;
+    
+}
+
+hr{
+    border: none;
+    border-top: 2px solid;
+
+}
+
+h1{
+    color: #556B2F;
+    font-family: bungee, sans-serif;
+    font-style: normal;
+   /* background-color: darkorange; */
+    font-weight: 800;
+}
+
