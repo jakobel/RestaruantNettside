@@ -3,6 +3,17 @@ a {
     text-decoration: none;
 }
 
+a:active{
+    text-decoration: underline;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+    font-style: oblique;
+    /*text-shadow: 2px 2px 7px black;*/
+}
+
 ul.info li{
     display: inline;
     margin-right: 10px;
@@ -42,13 +53,16 @@ div.nav{
 div.food{
     font-family: bungee, sans-serif;
     font-style: normal;
+    font-weight: 800;
+    font-size: larger;
 }
 
 
-body{
+div.top{
     text-align: center;
     
 }
+
 
 hr{
     border: none;
@@ -57,10 +71,10 @@ hr{
 }
 
 h1{
-    color: #556B2F;
-    font-family: bungee, sans-serif;
+    font-family: cheap-pine, sans-serif;
+    font-weight: 400;
+    font-size: 400%;
+    color: darkolivegreen;
     font-style: normal;
-   /* background-color: darkorange; */
-    font-weight: 800;
 }
 
