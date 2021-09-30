@@ -4,7 +4,6 @@ a {
 }
 
 
-
 a:hover{
 
     color: black;
@@ -370,7 +369,7 @@ h1{
     font-family:'Bebas Neue', cursive;
     width: 70%;
     margin: 20px;
-    padding-left: 230px;
+    padding-left: 350px;
     justify-content: center;
     text-align: center;
     
@@ -423,12 +422,17 @@ div.contactus{
     border-radius: 5px;
     box-shadow: 7px 7px 10px -3px;
     margin: 50px;
-    padding: 20x;
+    padding: 50x;
     font-size: 35px;
     width: 50%;
     justify-content: center;
     
 }
+
+.lokasjon .tekst{
+    padding: 20px;
+}
+
 
 .fane h2 {
     font-family:'Bebas Neue', cursive;}
@@ -473,11 +477,122 @@ div.contactus{
     background-color: rgb(190, 181, 169);
   }
    
+
+
+.footer{
+    background-color: rgb(183, 184, 155);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.konteiner{
+    max-width: 1170px;
+    margin: auto;
+    padding-top: 20px;
+    font-family:'Bebas Neue', cursive;
+}
+
+ul{
+    list-style: none;
+}
+.footer{
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 30px;
+
+}
+
+.footer-col h4{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: orange;
+    height: 2px;
+    box-sizing: border-box;
+    width: 70px;
+}
+
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
+
+.footer-col ul li a:hover{
+    color: white;
+    padding-left: 8px;
+
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right:  0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5 ease;
+
+}
+
+.nedre{
+    padding-right: 150px;
+    
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+
+
+}
+
   .fane {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
   }
+
 
 
 
