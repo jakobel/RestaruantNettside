@@ -36,6 +36,11 @@ ul.order li{
 
 }
 
+.sosiale-ikoner{
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
 
 nav ul li{
     display: inline-block;
@@ -538,8 +543,10 @@ ul{
     bottom: -10px;
     background-color: orange;
     height: 2px;
+    align-self: auto;
     box-sizing: border-box;
     width: 70px;
+    
 }
 
 
